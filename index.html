@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lens</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+	</head>
+	<body>
+		<center>
+			<h3 style="margin-top: 20px; margin-bottom: 20px;" >
+			Insert the guests of your par-tay here!
+			</h3>
+
+			<div id="rows">
+
+				<input type="text" placeholder="List" id="names">
+				<button id="submit" onclick="submit()">Submit</button><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+				<hr>
+
+				<div id="display_name"></div>
+				<hr>
+
+				<div id="show">
+					<h3 id="show_title">Guest List</h3>
+					<button onclick="Display()" id="Display_button">
+						show
+					</button>	
+					<p id="displayed"></p>
+				</div>
+				<hr>
+				<button onclick="sorting()" id="sort_button">
+					Sort
+				</button>
+				<div id="sort">
+				</div>
+			</div>
+			<hr>
+			<input type="text" placeholder="search" id="searched">
+			<button onclick="search()" id="search">Search Here</button>
+			<p id='p2'></p>
+		</center>
+		<script src="main.js"></script>
+	</body>
+</html>
